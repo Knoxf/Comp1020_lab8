@@ -8,7 +8,7 @@ public class Car extends ManyShapes{
     Point origin =  setOrigin;
     double wheelInset = 0.03;
     // Create rectangle corner points. 
-    Point rll = new Point (setOrigin.x,setOrigin.y + clearance); 
+    Point rll = new Point (setOrigin.x,setOrigin.y + clearance);
     Point rtr = new Point (setOrigin.x + xSize, setOrigin.y + clearance + ySize);
     // create the origin points for the wheels
     Point leftaxis = new Point(setOrigin.x + wheelInset, setOrigin.y + clearance);

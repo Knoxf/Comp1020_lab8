@@ -8,12 +8,12 @@
 public class TestClass
 {
   public static void main(String[] args){
-    testBasicShapes();
-    testMultiShapes();
-    testCar();
-    testCarAsShape();
+    //testBasicShapes();
+    //testMultiShapes();
+    //testCar();
+    //testCarAsShape();
     testHouse();
-    testHouse2();
+    //testHouse2();
   }
 
   private static void testBasicShapes(){
